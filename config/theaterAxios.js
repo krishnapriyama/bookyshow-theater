@@ -1,6 +1,6 @@
 import axios from "axios";
 const token = localStorage.getItem('theaterToken')
-const baseURL= "http://3.144.193.210/"
+const baseURL= "https://www.krishnapriya.online/"
 const instance = axios.create({
   baseURL,
   
@@ -10,4 +10,4 @@ const instance = axios.create({
   }
 });
 
-export default instance;
+export default instance; 
