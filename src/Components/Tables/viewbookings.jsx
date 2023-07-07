@@ -36,7 +36,7 @@ const viewbookings = () => {
     })
        .then((willDelete) => {
           if (willDelete) {
-             fetch(`http://localhost:4000/theater/deletebooking/${id}`, {
+             fetch(`https://krishnapriya.online/theater/deletebooking/${id}`, {
                 method: 'DELETE',
                 headers: {
                    'Content-Type': 'application/json',

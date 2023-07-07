@@ -42,7 +42,7 @@ const viewscreen = () => {
     })
        .then((willDelete) => {
           if (willDelete) {
-             fetch(`http://localhost:4000/theater/deleteScreen/${id}`, {
+             fetch(`https://krishnapriya.online/theater/deleteScreen/${id}`, {
                 method: 'DELETE',
                 headers: {
                    'Content-Type': 'application/json',
